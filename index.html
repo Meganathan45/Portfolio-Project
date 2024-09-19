@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="My personal portfolio and skills that I am having and ready to contribute to the company">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Personal Portfolio">
+    <meta name="author" content="Meganathan M , meganathangmail.com">
+    
+    <title>MEGANATHAN M </title>
+
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header class="header">
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="#education" class="navbar-link portfolio-link">Educational Qualification</a></li>
+                <li><a href="#projects" class="navbar-link project-link">Projects</a></li>
+                <li><a href="contact.html" class="navbar-link contact-link">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-bar">
+            <ion-icon class="menu-icon" name="menu-outline"></ion-icon>
+            <ion-icon class="menu-icon" name="close-outline"></ion-icon>
+        </div>
+
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero section-data">
+                    <p class="hero-top">This is me</p>
+                    <h1 class="hero-head">MEGANATHAN </h1>
+                    <!--only one h1 should be used in the total website SOS rule to top the rank in Google -->
+                    <p class="hero-para">
+                        I'm MEGANATHAN from Erode. I have successfully completed a Python Full Stack Development course at Uniq Institute, Coimbatore, which provided me with comprehensive skills in both front-end and back-end development.. 
+                    </p>
+
+                    <div id="hire">
+                        <a href="#hire"><button class="btn hero-button">HIRE ME</button></a>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="section-hero-image">
+
+                    <picture>
+                        <source srcset="images/Main_Image.webp" type="image/webp">
+                        <source srcset="images/Main_Image.jpg" type="image/jpg">
+                        <img src="images/MainImage.jpg" loading="lazy" alt="scenery" srcset="" class="hero-image">
+                    </picture>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bio Data Section-->
+    <section class="section-bio" id="education">
+        <div class="container grid grid-bio-two-column">
+            <div class="bio-data container">
+                <h2 class="common-heading">Skills</h2>
+                <p id="hire">To pursue a key role in the Software Industry where I can Show skills towards company’s growth
+                    with all My Efforts</p>
+                <br>
+                <p><b>TECHNICAL SKILLS</b> </p>
+                <ol>
+                    <li></b>Python </li>
+                    <li></b>Django</li>
+                    <li></b>Flask</li>
+                    <li></b>Mysql</li>
+                    <li></b>Numpy and Pandas</li>
+                    <li></b>Bootstrap</li>                    
+                    <li></b>Html and Css</li>
+                </ol>
+
+                <!--<a id="resume" href="https://drive.google.com/file/d/16ethK6Lp0Zt1m6t8mgok_lDa-1jUwUnw/view?usp=sharing"
+                    target="_blank" download> <button class="btn">Resume</button></a>-->
+            </div>
+            <!-- Right side -->
+            <div class="Educational-Section container">
+                <h3 class="common-heading">Educational Qualification</h3>
+                <div class="Educational-Details">
+                    <h3>BE Mechanical & Engineering</h3>
+                    <p>Shree Venkateshwara Hi-tech Engineering College </p>
+                    <div class="grid grid-three-column">
+                        <div class="name">
+                            <p>Meganathan M</p>
+                        </div>
+                        <div class="location">
+                            <ion-icon name="location-outline"></ion-icon><span>
+                                <p>Gobichettipalayam</p>
+                            </span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="Educational-Details">
+                    <h3>Higher Secondary School</h3>
+                    <p>Govt Boys higher Secoundary School, Kavinadapadi</p>
+                    <div class="grid grid-three-column">
+                        <div class="name">
+                            <p>MEGANATHAN M</p>
+                        </div>
+                        <div class="location">
+                            <ion-icon name="location-outline"></ion-icon><span>
+                                <p>Gobichettipalayam</p>
+                            </span>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <div class="Educational-Details">
+                    <h3>Secondary School</h3>
+                    <p>Govt High School . K.Mettupalayam</p>
+                    <div class="grid grid-three-column">
+                        <div class="name">
+                            <p>MEGANATHAN M</p>
+                        </div>
+                        <div class="location">
+                            <ion-icon name="location-outline"></ion-icon><span>
+                                <p>Gobichettipalayam</p>
+                            </span>
+                        </div>
+                
+                    </div>
+                </div>
+                <br>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-portfolio container" id="projects">
+        <div class="container">
+            <h3 class="common-heading">My Works</h3>
+            <p> <b>1. </b>Implemented authentication for admin and user credentials in the e-commerce system.<br>
+                <b>2. </b>Built the e-commerce website using Python Django for both user and admin functionality.<br>
+                <b>3. </b>Used MySQL for managing product data and user information in the e-commerce website<br>
+                <b>4. </b>Integrated a portfolio section using Bootstrap for showcasing my work<br>
+    
+            <small>Try reloading the visiting project website if it shows error  </a> </small> <br>
+            <small>More Works -> <a href="https://github.com/Meganathan45" title="Click to View Projects">GITHUB</a> </small> 
+            </p>
+        </div>
+        
+
+    <!-- Service Section -->
+    <section class="section service-section container">
+        <div class="container">
+            <h3 class="common-heading">Area Of Interest</h3>
+        </div>
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <ion-icon name="desktop-outline" class="service-icons"></ion-icon>
+                <h3>Web Development</h3>
+                <p>I am eager to improve my skills in web development by learning new technologies and best practices. I enjoy staying updated with the latest trends and applying them to build efficient and user-friendly websites</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="desktop-outline" class="service-icons"></ion-icon>
+                <h3>Python and Django </h3>
+                <p>I am very much interested in learning Python Django, as it helps in building powerful web applications efficiently. By working on projects, I aim to deepen my understanding of this framework and improve my web development skills.</p>
+            </div>
+            <div class="service-box">
+                <ion-icon name="desktop-outline" class="service-icons"></ion-icon>
+                <h3>HTML,CSS,BOOTSTRAP</h3>
+                <p>I am very much interested in frontend development, especially working with HTML, CSS, and Bootstrap to create visually appealing and responsive web pages. I enjoy designing user-friendly interfaces that enhance the overall user experience.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Parallex Effect -->
+    <section class="section parallex">
+        <div class="overlay-parallex"></div>
+        <div class="container">
+            <h3>I am a <span>Web Developer</span></h3>
+            <p>Click below button to get in touch</p>
+            <button class="btn"><a href="contact.html">Contact Us</a></button>
+        </div>
+    </section>
+
+
+    <!-- Contact Us  -->
+    <section class="section contact-section container">
+        <div class="container">
+            <h3 class="common-heading">Contact Us</h3>
+        </div>
+        
+            <form action="mailto:mmmeganathan45@gmail.com" method="POST">
+            <div class="grid grid-two-column">
+                <div class="username">
+                    <label for="username"></label>
+                    <input type="text" name="username" placeholder="Username" autocomplete="off" required>
+                </div>
+                
+
+            <div class="">
+                <label for="textarea"></label>
+                <textarea type="textarea" cols="30" row="10" placeholder="Textarea" required name="message"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footerData">
+        <div class=" grid grid-four-column">
+            <div class="about">
+                <h3>About Website</h3>
+                <p>More Upcoming Projects Will be Updated on this site Stay Tuned.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="index.html">Profile</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="footer-projects">
+                <h3>Projects Done</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="https://github.com/Meganathan45/E-commerce_Shopping_Project" target="_blank">E-commerce Shopping Website Project . </a>
+                    </li>
+                    
+                <hr><br>
+                <h3>Upcoming project</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">SOON .</a>
+                    </li>
+                </ul>
+                <br>
+                <hr>
+
+            </div>
+
+            <div class="footer-help">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                        <a href="#">ERODE,Tamil nadu</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="location-outline"></ion-icon>
+                        </span>
+                        <a href="contact.html" target="_blank">Contact Info</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="call-outline"></ion-icon>
+                        </span>
+                        <a href="tel:+917904565734">Click Here</a>
+                    </li>
+                    <li>
+                        <span>
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <a href="mailto:mmmeganathan@gmail.com">meganathan@gmail.com</a>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="container">
+            <div class="f-social-links">
+                <a href="#" target="_blank">
+                    <span>
+                        <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#" target="_blank">
+                    <span>
+                        <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="https://wa.me/917904565734">
+                    <span>
+                        <ion-icon name="logo-whatsapp" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="https://github.com/Meganathan45" target="_blank">
+                    <span>
+                        <ion-icon name="logo-github" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <a href="#" target="_blank">
+                    <span>
+                        <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                    </span>
+                </a>
+                <p style="color:darkgray">&copy;<span id="copyrights"></span> All Rights Reserved by Meganathan </p><br>
+
+            </div>
+        </section>
+    </footer>
+
+    <!-- Script Section -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
